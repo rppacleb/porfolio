@@ -17,7 +17,7 @@ export const Expertise = ({ classes }) => {
     return (
         <Box bgcolor="primary.main" color="#ffffff" height="auto" pt="7%" pb="7%">
             <Box mb="5%" textAlign="center" className="f-20" style={{letterSpacing: '2px'}}><strong>MY EXPERTISE</strong></Box>
-            <Container>
+            <Container style={{overflow: 'hidden'}}>
                 <Grid container spacing={8}>
                     <Grid item xs={12} sm={4}>
                         <Box style={{letterSpacing: '2px'}} mb={3}><strong>Summary</strong></Box>

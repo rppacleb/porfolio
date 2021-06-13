@@ -91,7 +91,7 @@ export const Experiences = ({ classes }) => {
                                 <Typography className="f-md-14 f-10">Experience</Typography>
                                 <Box mt={1} width="100%" className="f-md-18 f-12">
                                     <Box style={{textAlign: 'justify'}}>
-                                        Responsible for planning, monitoring and managing subordinates and their handled projects and owned projects assigned. Coordinating with other teams such as Graphics, QC,  BPA’s and Team Heads to provide and maintain standard procedures. In charge of learning and implementing new technologies, practices and development structu12s.
+                                        Responsible for planning, monitoring and managing subordinates and their handled projects and owned projects assigned. Coordinating with other teams such as Graphics, QC,  BPA’s and Team Heads to provide and maintain standard procedures. In charge of learning and implementing new technologies, practices and development structures.
                                     </Box>
                                 </Box>
                             </Box>

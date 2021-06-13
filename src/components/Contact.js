@@ -4,7 +4,7 @@ import { Facebook as IFacebook, Instagram as IInstagram, Twitter as ITwitter, Li
 export const Contact = ({ classes }) => {
     return (
         <Box height="auto" pt="3%" pb="3%" bgcolor="secondary.dark">
-            <Container>
+            <Container style={{overflow: 'hidden'}}>
                 <Grid container spacing={5}>
                     <Grid item xs={12} sm={4}>
                         <Box p={2} borderRadius={15} bgcolor="secondary.dark">

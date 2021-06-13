@@ -13,7 +13,7 @@ export const Work = ({ classes }) => {
     return (
         <Box height="auto" pt="7%">
             <Box mb="5%" textAlign="center" className="f-20" style={{letterSpacing: '2px'}}><strong>MY WORKS</strong></Box>
-            <Container>
+            <Container style={{overflow: 'hidden'}}>
                 <Grid container spacing={8}>
                     <Grid item xs={12} sm={4}>
                         <Card style={{borderRadius: '15px'}}>
@@ -116,7 +116,7 @@ export const Work = ({ classes }) => {
                                             Jan '20 - Apr '20
                                         </Typography>
                                         <Typography className="f-12" style={{textAlign: 'justify'}}>
-                                            POFPersonal is a platform that helps your business to be 10x Bigger, 10x Faster, and 10x Higher.
+                                            POFBusiness is a platform that helps your business to be 10x Bigger, 10x Faster, and 10x Higher.
                                         </Typography>
                                     </Box>
                                 </CardContent>

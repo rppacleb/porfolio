@@ -3,8 +3,8 @@ import { Box, Container, Grid, Typography, Card, CardActionArea, CardMedia, Card
 export const Recognitions = ({ classes }) => {
     return (
         <Box height="auto" pt="7%" pb="7%">
-            <Box mb="5%" textAlign="center" className="f-20" style={{letterSpacing: '2px'}}><strong>MY RECOGINITIONS</strong></Box>
-            <Container>
+            <Box mb="5%" textAlign="center" className="f-20" style={{letterSpacing: '2px'}}><strong>MY RECOGNITIONS</strong></Box>
+            <Container style={{overflow: 'hidden'}}>
                 <Grid container spacing={5}>
                     <Grid item xs={12} sm={4}>
                         <Box p={2} borderRadius={15} bgcolor="secondary.dark">
