@@ -1,4 +1,4 @@
-import { Box, Container, Typography, Grid, makeStyles } from "@material-ui/core"
+import { Box, Link, Typography, Grid, makeStyles } from "@material-ui/core"
 
 import { Experiences } from "./components/Experiences";
 import { Counts, TechBelief } from "./components/Summary";
@@ -9,6 +9,7 @@ import { Contact } from "./components/Contact";
 
 import bg1 from './assets/images/bg1.jpg'
 import me1 from './assets/images/me2.jpg'
+import cv from './assets/files/rppacleb_cv.pdf'
 
 let styles = makeStyles(theme => ( {
 	bg1: {
@@ -60,7 +61,9 @@ export const Core = () => {
 							</Box>
 							<Box bgcolor="primary.main" color="white" p={0.5} borderRadius={10} width="150px" mb="15%" />
 							<Box display="flex" justifyContent="center">
-								<Box bgcolor="primary.main" color="white" p={1} pl={4} pr={4} borderRadius={10} className="f-17" mr={5}><strong>View my CV</strong></Box>
+								<Link href={cv} target="_blank">
+									<Box bgcolor="primary.main" color="white" p={1} pl={4} pr={4} borderRadius={10} className="f-17" mr={5}><strong>View my CV</strong></Box>
+								</Link>
 								<Box color="primary.main" p={1} borderRadius={10} className="f-17" mr={5}><strong>scroll down</strong></Box>
 							</Box>
 						</Box>
