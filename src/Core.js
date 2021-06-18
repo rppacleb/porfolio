@@ -8,7 +8,7 @@ import { Recognitions } from "./components/Recognitions";
 import { Contact } from "./components/Contact";
 
 import bg1 from './assets/images/bg1.jpg'
-import me1 from './assets/images/me2.jpg'
+import me1 from './assets/images/me1.png'
 import cv from './assets/files/rppacleb_cv.pdf'
 
 let styles = makeStyles(theme => ( {
@@ -22,14 +22,12 @@ let styles = makeStyles(theme => ( {
 		overflow: 'hidden'
 	},
 	bg2: {
-		backgroundPosition: 'center',
 		backgroundImage: `url(${me1})`,
 		backgroundSize: '100%',
+		backgroundPosition: 'bottom',
 		backgroundRepeat: 'no-repeat',
-		// backgroundImage: `url(${me1})`,
-		// backgroundSize: '120%',
-		// borderRadius: '300px 0 0 300px'
-		padding: `150px`
+		padding: `150px`,
+		height: '100%',
 	},
 	start: {
 		borderRadius: '150px 150px 0 0'
@@ -69,8 +67,7 @@ export const Core = () => {
 						</Box>
 					</Grid>
 					<Grid item sm={6} xs={12}>
-						<Box height="9%" bgcolor="#ffffff"></Box>
-						<Box height="91%" className={classes.bg2}></Box>
+						<Box className={classes.bg2}></Box>
 					</Grid>
 				</Grid>
 			</Box>

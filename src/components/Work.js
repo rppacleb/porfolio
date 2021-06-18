@@ -8,6 +8,7 @@ import work4 from '../assets/images/work4.png'
 import work5 from '../assets/images/work5.png'
 import work6 from '../assets/images/work6.png'
 import work7 from '../assets/images/work7.png'
+import work8 from '../assets/images/work8.png'
 
 export const Work = ({ classes }) => {
     return (
@@ -195,6 +196,33 @@ export const Work = ({ classes }) => {
                                     <Box height="80px">
                                         <Typography className="f-14">
                                             Sept '20 - Dev '21
+                                        </Typography>
+                                        <Typography className="f-12" style={{textAlign: 'justify'}}>
+                                            Pofsis for developers provide all available API's for the integration of POFSIS for all accredited tools by Management Tool.
+                                        </Typography>
+                                    </Box>
+                                </CardContent>
+                            </CardActionArea>
+                        </Card>
+                    </Grid>
+                    <Grid item xs={12} sm={4}>
+                        <Card style={{borderRadius: '15px'}}>
+                            <CardActionArea>
+                                <CardMedia image={work8} title="Contemplative Reptile" style={{height: '200px'}} />
+                                <CardContent>
+                                    <Box display="flex" justifyContent="space-between" alignItems="center">
+                                        <Typography className="f-20">
+                                            <strong>Marketing Center</strong>
+                                        </Typography>
+                                        <Link href="https://marketing-center.pofsis.com/" target="_blank">
+                                            <Box display="flex" alignItems="center">
+                                                <ILink />Check now
+                                            </Box>
+                                        </Link>
+                                    </Box>
+                                    <Box height="80px">
+                                        <Typography className="f-14">
+                                            June '21
                                         </Typography>
                                         <Typography className="f-12" style={{textAlign: 'justify'}}>
                                             Pofsis for developers provide all available API's for the integration of POFSIS for all accredited tools by Management Tool.

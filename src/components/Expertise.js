@@ -12,6 +12,7 @@ import texp8 from '../assets/images/texp8.png'
 import texp9 from '../assets/images/texp9.png'
 import texp10 from '../assets/images/texp10.png'
 import texp11 from '../assets/images/texp11.png'
+import texp12 from '../assets/images/texp12.png'
 
 export const Expertise = ({ classes }) => {
     return (
@@ -146,6 +147,17 @@ export const Expertise = ({ classes }) => {
                                     <Box>
                                         <Typography><strong className="f-md-20 f-15">AWS Lambda</strong></Typography>
                                         <Typography className="f-15">9/10</Typography>
+                                    </Box>
+                                </Box>
+                            </Grid>
+                            <Grid item xs={6} sm={4}>
+                                <Box display="flex" alignItems="center">
+                                    <Box width="40px" minWidth="20px" mr={1}>
+                                        <img src={texp12} alt="comp1" width="100%" />
+                                    </Box>
+                                    <Box>
+                                        <Typography><strong className="f-md-20 f-15">GIT</strong></Typography>
+                                        <Typography className="f-15">8/10</Typography>
                                     </Box>
                                 </Box>
                             </Grid>

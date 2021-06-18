@@ -20,7 +20,7 @@ export const Counts = ({ classes }) => {
                     </Box>
                     <Box display="flex" flexDirection="column" alignItems="center">
                         <Box color="gray"><ICode className="f-md-60 f-30" /> </Box>
-                        <strong className="f-15">08</strong>
+                        <strong className="f-15">12</strong>
                         <Typography className="f-13">Technologies</Typography>
                     </Box>
                     <Box display="flex" flexDirection="column" alignItems="center">
