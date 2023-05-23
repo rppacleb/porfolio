@@ -31,13 +31,13 @@ export const Contact = ({ classes }) => {
                                 <strong>Further Information</strong>
                             </Box>
                             <Typography className="f-18">
-                                #2032 Pagkalinawan St., Ibayo-tipas, Taguig City, Metro Manila, Philippines
+                                #13 Maestrang Pinang, Ibayo-tipas, Taguig City, Metro Manila, Philippines
                             </Typography>
                             <Typography className="f-15">
-                                paclebrj@gmail.com / monmonpacleb@yahoo.com
+                                paclebrj@gmail.com
                             </Typography>
                             <Typography className="f-15">
-                                +639369301184 / +639687448657
+                                +639687448657
                             </Typography>
                         </Box>
                     </Grid>
