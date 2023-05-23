@@ -38,7 +38,7 @@ const pageTheme = createMuiTheme({
     typography: {
 		fontFamily: [
 		  '-apple-system',
-		  '"Nunito"',
+		  '"Inter"',
 		//   '"Segoe UI"',
 		//   'sans-serif'
 		].join(','),
