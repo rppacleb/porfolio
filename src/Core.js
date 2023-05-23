@@ -45,6 +45,7 @@ let styles = makeStyles(theme => ( {
 
 export const Core = () => {
 	let classes = styles()
+	
 	return (
 		<Box height="100%">
 			<Box display="flex" justifyContent="space-between" height="100%" className={classes.bg1}>

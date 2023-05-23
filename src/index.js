@@ -45,4 +45,5 @@ const pageTheme = createMuiTheme({
 	},
 })
 
+console.log('V1.1.4')
 ReactDOM.render(<React.StrictMode><ThemeProvider theme={pageTheme}><CssBaseline /><Core /></ThemeProvider></React.StrictMode>, document.getElementById('root'));
