@@ -9,7 +9,7 @@ import { Contact } from "./components/Contact";
 
 import bg1 from './assets/images/bg1.jpg'
 import me1 from './assets/images/me1.png'
-import cv from './assets/files/rppacleb_cv.pdf'
+import cv from './assets/files/rppacleb_cv_3.pdf'
 
 let styles = makeStyles(theme => ( {
 	bg1: {

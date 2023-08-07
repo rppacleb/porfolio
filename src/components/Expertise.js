@@ -23,7 +23,7 @@ export const Expertise = ({ classes }) => {
                     <Grid item xs={12} sm={4}>
                         <Box style={{letterSpacing: '2px'}} mb={3}><strong>Summary</strong></Box>
                         <Box textAlign="justify" className="f-md-17 f-14">
-                            <strong>Web Application Developer with 2+ Years experience</strong> in Designing and Developing UI/UX, Backend Development, App Versioning, Quality Checking, Debugging, and Training Staffs within Development teams. Proven ability in optimizing web functionalities that improve data retrieval and manipulation, Fast Learner, Efﬁcient and Would do anything to provide the expected output and even better.
+                            <strong>Web Application Developer with 4+ Years experience</strong> in Designing and Developing UI/UX, Backend Development, App Versioning, Quality Checking, Debugging, and Training Staffs within Development teams. Proven ability in optimizing web functionalities that improve data retrieval and manipulation, Fast Learner, Efﬁcient and Would do anything to provide the expected output and even better.
                         </Box>
                     </Grid>
                     <Grid item xs={12} sm={8}>
